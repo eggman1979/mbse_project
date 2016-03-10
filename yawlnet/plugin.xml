@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated yawlnet -->
+      <package
+            uri="http://mbse.gruppexx/yawlnet"
+            class="yawlnet.YawlnetPackage"
+            genModel="model/yawlnet.genmodel"/>
+            
+         
+  
+   </extension>
+   <extension  point="org.pnml.tools.epnk.pntd"
+   id="123.123.456.789"
+   name="YAWL Nets (or something like it)">
+   <!-- the next field is fixed; it should not be changed -->
+  
+   <type
+     
+      class="yawlnet.impl.YawlnetImpl"
+     
+      description="Yawlnet which is a subtype of petrinets. have no idea what it does, but i will find out someday" />
+
+   </extension>
+
+</plugin>
