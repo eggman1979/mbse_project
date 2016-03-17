@@ -28,5 +28,16 @@
       description="Yawlnet which is a subtype of petrinets. have no idea what it does, but i will find out someday" />
 
    </extension>
+   <!--
+   <extension
+   id="org.pnml.tools.epnk.pntypes.yawlnets.graphics"
+    name="Yawlnet event net graphical extensions"
+    point="org.pnml.tools.epnk.diagram.graphics">
+  <graphicsextension
+    class="yawlnet.yawl.graphics.figures.YawlnetGraphics"
+    description="Special graphics for ... signal event nets">
+  </graphicsextension>
+</extension>
+-->
 
 </plugin>
